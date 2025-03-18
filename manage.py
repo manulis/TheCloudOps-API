@@ -11,7 +11,7 @@ def main():
         from django.core.management import execute_from_command_line
     except ImportError as exc:
         raise ImportError(
-            "a ver cabeza de pija instala django"
+            ""
         ) from exc
     execute_from_command_line(sys.argv)
 
